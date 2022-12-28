@@ -1,0 +1,28 @@
+{
+    "name": "panthere_openclassroom",
+    "version": "1.0.0",
+    "description": "OpenClassrooms, WebDeveloper project #4",
+    "main": "index.html",
+    "scripts": {
+      "scss": "sass ./sass:./css --style compressed",
+      "start": "sass --watch ./sass:./css --style compressed"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/genebou/panthere_openclassroom.git"
+    },
+    "keywords": [
+      "SCSS",
+      "GIT",
+      "Animation",
+      "CSS",
+      "HTML"
+    ],
+    "author": "Genebou",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/genebou/panthere_openclassroom_food/issues"
+    },
+    "homepage": "https://github.com/genebou/panthere_openclassroom#readme"
+  }
+  
