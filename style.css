@@ -88,10 +88,17 @@ a:hover {
     color:rgb(162,161,161);
     font-style: normal;
 }
+#entete{
+    width:100%;
+}
 #entete_contact{
-    height: 200px;
+    height: 300px;
     width: 100%;
     object-fit: cover;
+}
+#entete .col-sm-12{
+    margin-top:-130px;
+    text-align: center;
 }
 #entete .col-sm-12 h1{
     text-align: start;
@@ -99,12 +106,24 @@ a:hover {
 #entete .col-sm-12 p{
     text-align: start;
 }
-footer a{
-    color:#FFFFFF;
-    text-align: end;
-}
-footer p{
+#bloc-8 .row a{
     text-align: center;
+    color:#FFFFFF;
+}
+#bloc-8 .row a:hover{
+    color:black;
+    font-weight: bold;
+}
+#bloc-8 .slogan2{
+    font-size: 26px;
+    font-weight: 800;
+    margin:10px;
+}
+#bloc-8 .horaires{
+    margin:10px;
+}
+#bloc-6 .container .bloc-lg{
+    padding:0px;
 }
 
 .bg-center,
@@ -761,6 +780,14 @@ p {
     margin: auto auto auto auto;
     -webkit-text-fill-color:black;
 }
+#bloc-8 .social {
+    max-width: 400px;
+    margin: auto auto auto auto;
+    -webkit-text-fill-color:rgb(254, 252, 252);
+}
+#bloc-8 .row .row-no-gutters .social{
+    -webkit-text-fill-color: rgb(254, 252, 252);
+}
 
 h2 {
     font-size: 22px;
@@ -879,11 +906,6 @@ h4 {
     color: #364577!important;
     border-color: #364577!important;
 }
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
 
 
 .bg-banniere {
