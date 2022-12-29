@@ -14,11 +14,11 @@ button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-a{
+li a{
     border-bottom: 2px solid #F3976C;
 }
 
-a:hover {
+li a:hover {
     text-decoration: none;
     cursor: pointer;
     border-bottom: black;
